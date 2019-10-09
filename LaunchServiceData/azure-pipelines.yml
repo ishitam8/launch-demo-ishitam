@@ -68,6 +68,6 @@ steps:
     script: 'Write-Host "ACI URL: $env:LAUNCHACIURL"'
 - task: LaunchToGithub@0
   inputs:
-    gitHubConnection: 'launchgh'
+    gitHubConnection: 'LaucnchSvcq50g4x5c.hbb'
 
             
