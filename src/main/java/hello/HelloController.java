@@ -15,7 +15,7 @@ public class HelloController {
 	@RequestMapping("/logout")
     public String logout() {
         //System.out.println("New line changed code added");
-        return "Logout API invoked from deployment";
+        return "Logout API invoked from deployment! Change logout text!";
     }
     
 	@RequestMapping("/login")
