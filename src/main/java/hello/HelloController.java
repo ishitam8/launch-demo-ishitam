@@ -9,13 +9,15 @@ public class HelloController {
     @RequestMapping("/")
     public String index() {
         System.out.println("New line changed code added");
+
         return "Greetings from Spring Boot! CReating and testing a new tag! Also the PR workflow!";
+
     }
 	
 	@RequestMapping("/logout")
     public String logout() {
         //System.out.println("New line changed code added");
-        return "Logout API invoked from deployment";
+        return "Logout API invoked from deployment! Change logout text!";
     }
     
 	@RequestMapping("/login")
