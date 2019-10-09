@@ -10,7 +10,7 @@ public class HelloController {
     public String index() {
         System.out.println("New line changed code added");
 
-        return "Greetings from Spring Boot! CReating and testing a new tag! Also the PR workflow!";
+        return "Greetings from Spring Boot! CReating and testing a new tag! Also the PR workflow! Pipeline Definition updated manually";
 
     }
 	
