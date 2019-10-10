@@ -9,7 +9,7 @@ public class HelloController {
     @RequestMapping("/")
     public String index() {
         System.out.println("New line changed code added");
-        return "Greetings ! Launch Init command Demo";
+        return "Greetings ! Launch Init command Demo. PR open trigger failing";
     }
 	
 	@RequestMapping("/logout")
