@@ -9,7 +9,7 @@ public class HelloController {
     @RequestMapping("/")
     public String index() {
         System.out.println("New line changed code added");
-        return "PR flow worked! Test Again!";
+        return "PR flow worked! Test Again !! One more test";
     }
 	
 	@RequestMapping("/logout")
